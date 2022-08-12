@@ -3,7 +3,7 @@
      "node_modules": true,
      ".gitignore": true,
      "package-lock.json": true,
-     "package.json": true,
+     "package.json": false,
      "README.md":true,
      "LICENSE":true,
      ".babelrc":true,

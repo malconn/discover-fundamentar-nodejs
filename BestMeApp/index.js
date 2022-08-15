@@ -20,3 +20,20 @@ process.stdin.on("data",data=>{
   process.exit()
  }
 })
+
+process.on("exit",()=>{
+ console.log(`
+  Bacana Malcon!
+  O que aprendi hoje foi:
+  ${answer[0]}
+
+  O que me deixou aborrecido? E o que eu poderia fazer para melhorar foi:
+  ${answer[1]}
+
+  O que me deixou feliz hoje foi:
+  ${answer[2]}
+
+  Quantas pessoas ajudei hoje foi:
+  ${answer[3]}
+ `)
+})
